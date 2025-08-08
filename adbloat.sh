@@ -925,7 +925,7 @@ tweaks() {
     adb shell settings put global app_auto_restriction_enabled 1
     adb shell settings put global app_standby_enabled 1
     adb shell settings put global forced_app_standby_enabled 1
-    adb shell settings put global keep_profile_in_background 0
+    adb shell settings put global keep_profile_in_background 1
     adb shell settings put global always_finish_activities 1
     adb shell settings put global sys.app.oom_adj 1
     adb shell settings put global sys.isdumpstaterunning 0
